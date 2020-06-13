@@ -103,18 +103,17 @@ select {
     appearance: none;
     outline: none;
     border: none;
+    color: #ff6f47;
+    width: 8rem;
+    cursor: pointer;
+    padding: 1rem;
+    background-color: white;
 }
 .select {
     margin: 1rem;
     margin-left: -30px;
     position: relative;
     overflow: hidden;
-}
-select {
-    color: #ff6f47;
-    width: 8rem;
-    cursor: pointer;
-    padding: 1rem;
 }
 .select::after {
     content: "\25BC";
